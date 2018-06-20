@@ -36,21 +36,29 @@
 			font-size: 15px;
 			text-align: center;
 		}
+		.online{
+			font-family: 'Source Sans Pro', sans-serif;
+			font-size: 15px;
+		}
 	</style>
 	<body>
+		<!--NavBAr atas-->
+		<div>
+			<nav class="navbar navbar-expand-md bg-light sticky-top">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">
+						<h3 class="jofil" > <strong>
+						Jonathan Filbert
+						</strong>
+						</h3>
+					</a>
+				</div>
+			</nav>
+		</div>
+		<!-- Main content -->
 		<div class="container">
-			<!--NavBAr atas-->
-			<div class="row">
-				<nav class="navbar sticky-top navbar-light bg-light">
-					<div class="container-fluid">
-						<a class="navbar-brand" href="#">
-							<h3 class="jofil" > <strong>
-							Jonathan Filbert
-							</strong>
-							</h3>
-						</a>
-					</div>
-				</nav>
+			<div class="container">
+				<span class="online text-muted"> <i class="em em-large_blue_circle"></i> Online </span>
 			</div>
 			<!-- Text Line 1-->
 			<div class="row texBox">
@@ -98,7 +106,7 @@
 			<!--Text Line 5 -->
 			<div class="row texBox">
 				<div class="col-lg-4 col-sm-6" >
-					<a href="resume.pdf" class="btn-lg btn textJofil button2" target="_blank" style="color:white" download>
+					<a href="resume.pdf" class="btn-lg btn textJofil button2" target="_blank" style="color:white">
 						<em>
 						<u>
 						Resume.pdf
@@ -125,15 +133,16 @@
 					</button>
 				</div>
 			</div>
+			<br>
 			<!-- Made with love section -->
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-4 col-lg-4 col-md-4 offset-lg-3 offset-md-3">
-						<span class="text-muted madeWith float-right" style="padding-top: 60px;"> Made with
-							<i class="em em-heart"></i>
-						</span>
-					</div>
+			<div class="container">
+				<div class="col"></div>
+				<div class="col text-center">
+					<span class="text-muted madeWith" style="padding-top: 60px;"> Made with
+						<i class="em em-heart"></i>
+					</span>
 				</div>
+				<div class="col"></div>
 			</div>
 		</div>
 		<!-- Optional JavaScript -->
